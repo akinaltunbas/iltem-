@@ -1,0 +1,14 @@
+.navbar-brand{
+    color: azure !important;
+    font-size: 30px;
+    font-style: oblique;
+    
+}
+.navbar-dark{
+    background-color: firebrick !important;
+}
+
+#main-footer{
+    color:azure;
+    background-color: firebrick;
+}

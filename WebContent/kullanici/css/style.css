@@ -1,0 +1,278 @@
+body {
+  padding-top: 80px;
+}
+
+.bg{
+	background-color: #4A1755;
+	
+}
+#sidebar {
+  position: fixed;
+  top: 50px;
+  left: 220px;
+  width: 220px;
+  margin-left: -220px;
+  border: none;
+  border-radius: 0;
+  overflow-y: auto;
+  background-color: #4A1755;
+  bottom: 0;
+  overflow-x: hidden;
+  padding-bottom: 40px;
+}
+
+.side-bar > li > a {
+  color: #eee;
+  width: 220px;
+}
+
+.side-bar li a:hover,
+.side-bar li a:focus {
+  background-color: #782988;
+}
+
+.tmargin {
+  margin-top: 15px;
+}
+
+
+/* Style inputs, select elements and textareas */
+input[type=email], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+input[type=date], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+input[type=time], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+input[type=text], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+input[type=password], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+/* Style the label to display next to the inputs */
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  margin-left:10px;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+/* Floating column for labels: 25% width */
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+/* The alert message box */
+.alert-success {
+	border-radius:25px;
+	position:relative;
+	left:225px;
+	max-width:70%;
+	margin-top:20px;
+    padding: 20px;
+    background-color: #00cc00; /* Green */
+    color: white;
+    margin-bottom: 15px;
+    margin-left:35px;
+    
+}
+.alert-unsuccess {
+    padding: 20px;
+    background-color: #f44336; /* Red */
+    color: white;
+    margin-bottom: 15px;
+    border-radius:25px;
+	position:relative;
+	left:225px;
+	max-width:70%;
+	margin-top:20px;
+	margin-left:35px;
+}
+
+/* The close button */
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+    color: black;
+}
+
+.baslikcontainer{
+	border-radius:25px;
+	position:relative;
+	left:225px;
+	background-color: #4A1755;
+	max-width:70%;
+	margin-top:20px;
+	margin-left:35px;
+
+}
+.baslikcontainer> label
+{
+	color:#fff;
+	margin-left:25px;
+}
+.formcontainer {
+	position:relative;
+	left:225px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  max-width: 40%;
+  margin-left:20px;
+  margin-top:20px;
+  margin-left:50px;
+}
+
+
+/* Tablo için css kodlarý*/
+.tablecontainer{
+	position:relative;
+	left:225px;
+	margin-top:20px;
+	margin-left:35px;
+	max-width: 70%;
+	
+}
+.tablolar
+{
+	border-collapse: collapse; /* Collapse borders */
+    width: 100%; /* Full-width */
+    border: 1px solid #ddd; /* Add a grey border */
+    font-size: 18px; /* Increase font-size */
+}
+.tablolar th, .tablolar td
+{
+	text-align: left; /* Left-align text */
+    padding: 12px; /* Add padding */
+}
+.tablolar tr {
+    /* Add a bottom border to all table rows */
+    border-bottom: 1px solid #ddd; 
+}
+
+.tablolar tr.header, .tablolar tr:hover {
+    /* Add a grey background color to the table header and on hover */
+    background-color: #f2f2f2;
+}
+
+#myInput {
+    width: 70%; /* Full-width */
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+    margin-bottom: 12px; /* Add some space below the input */
+}
+
+#myTable {
+    border-collapse: collapse; /* Collapse borders */
+    width: 100%; /* Full-width */
+    border: 1px solid #ddd; /* Add a grey border */
+    font-size: 18px; /* Increase font-size */
+}
+
+#myTable th, #myTable td {
+    text-align: left; /* Left-align text */
+    padding: 12px; /* Add padding */
+}
+
+#myTable tr {
+    /* Add a bottom border to all table rows */
+    border-bottom: 1px solid #ddd; 
+}
+
+#myTable tr.header, #myTable tr:hover {
+    /* Add a grey background color to the table header and on hover */
+    background-color: #f2f2f2;
+}
+/* Tablo için css kodlarý son*/
+
+/* Drop Down List*/
+
+.dropdown-select {
+  color: #aaa;
+  text-shadow: 0 1px black;
+  background: #fff;  
+}
+ .dropdown-select:focus {
+  color: #ccc;
+}
+
+.dropdown-select > option {
+  background: #444;
+  text-shadow: 0 1px rgba(0, 0, 0, 0.4);
+}
+
+/* Drop Down List -Son-*/

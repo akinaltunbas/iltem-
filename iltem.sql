@@ -1,0 +1,1 @@
+SELECT * FROM `iltem-2`.yonetici;

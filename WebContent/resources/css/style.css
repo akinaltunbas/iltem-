@@ -1,0 +1,22 @@
+.pos-rel{position:relative;}
+.back-image{
+	background-image:url(https://neoskin.speedyapplication.com/webimage/parallax.jpg);
+	background-size: cover;
+	background-attachment:fixed;
+}
+.content-116 .counter{
+	font-size: 90px;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:600;
+}
+.content-116 .counterBoxDetails{
+	color: #fff;
+	font-size:22px;
+}
+.content-116 .orange-line {
+    background: #1ccdca;
+    height: 1px;
+    margin: 0 auto 20px;
+    width: 30%;
+}
