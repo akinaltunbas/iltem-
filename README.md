@@ -1,2 +1,2 @@
 # iltem-
-JSP&Servlet ve JDBC kullanılarak yapılmış dinamik bir Web Projesi
+JSP&Servlet ve JDBC kullanılarak yapılmış dinamik bir Web Projesi 
